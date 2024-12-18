@@ -11,17 +11,18 @@ A simple RESTful calculator web service built with ASP.NET Core that performs ba
 - Unit tests
 - Clean architecture
 - Application Insights integration(Planned)
-- Health monitoring(Planned)
+- Health monitoring
 - Infrastructure as Code with Terraform(Planned)
 - CI/CD with GitHub Actions
+- React frontend(Planned)
 
 ## Prerequisites
 
 - .NET 8.0 SDK or later
 - Visual Studio 2022 or VS Code
 - Azure subscription(Optional)
-- Terraform
-- Azure CLI
+- Terraform(Optional)
+- Azure CLI(Optional)
 
 ## Project Structure
 
@@ -34,7 +35,7 @@ src/
 tests/
   ├── MyCalculator.UnitTests/     # Unit tests
   └── MyCalculator.IntegrationTests/ # Integration tests
-infra/                           # Terraform configuration
+infra(planned)/                           # Terraform configuration
   ├── main.tf                    # Main Terraform configuration
   ├── variables.tf               # Variable definitions
   ├── outputs.tf                 # Output definitions
