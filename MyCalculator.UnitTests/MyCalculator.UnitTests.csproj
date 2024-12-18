@@ -20,4 +20,8 @@
         <Using Include="Xunit"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\MyCalculator.Domain\MyCalculator.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
